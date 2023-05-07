@@ -1,21 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TraLive</title>
     <link rel="icon" href="./Assets/logo-white.png" />
-    <link rel="stylesheet" href="styles.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
-<nav class="nav navbar">
 
-</nav>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<body>
+    <!-- Header and Navbar Section -->
+    <div class="header-section">
+        <input type="checkbox" id="nav-check">
+        <label for="nav-check" class="header-section-nav-toggler">
+            <span>Menu</span>
+            <i class="fa fa-bars"></i>
+        </label>
+        <a class="header-section-logo" href="#">
+            <img class="header-section-logo-img" src="./Assets/img/logo1.png" alt="logo">
+        </a>
+        <ul class="header-section-nav-ul">
+            <li class="header-section-nav-ul-li"><a href="#" class="header-section-nav-ul-li-a active">Home</a></li>
+            <li class="header-section-nav-ul-li"><a href="#" class="header-section-nav-ul-li-a">Event</a>
+            </li>
+            <li class="header-section-nav-ul-li"><a href="#" class="header-section-nav-ul-li-a">About</a>
+            </li>
+            <li class="header-section-nav-ul-li"><a href="#" class="header-section-nav-ul-li-a">Blog</a>
+            </li>
+            <li class="header-section-nav-ul-li"><a href="#" class="header-section-nav-ul-li-a">Contact</a>
+            </li>
+            <li class="header-section-nav-ul-li"><button class="header-section-nav-ul-li-contact-btn" type="button">
+                    <pre><i class="fa fa-phone"></i> +10 (12) 458 5122</pre>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- Welcome Text and Image Section -->
+    <div class="welcome-section">
+        <div class="welcome-section-content-text">
+            <h1 class="welcome-section-content-text-h1">Lifelon memories Just a, <br> <span>few seconds away</span></h1>
+            <p class="welcome-section-content-text-p">Let's start journey with us and dream will come true
+            </p>
+            <button class="welcome-section-content-text-btn">Explore Destinations</button>
+        </div>
+        <img class="welcome-section-content-car-img" src="./Assets/img/car.png" alt="car">
+    </div>
+
+
+
+    <!-- Upcomming Event Section -->
+    <div class="up-event-section">
+        <div class="up-event-section-text">
+            <p>Check Our Best Promotional Tours
+            </p>
+            <h1>Upcomming Events</h1>
+        </div>
+        <div class="up-event-section-cards">
+
+            <div class="up-event-section-cards-card">
+                <img src="./Assets/img/service1.png" alt="service1">
+                <div class="up-event-section-cards-card-content">
+                    <h3>Spitzberg</h3>
+                    <h4>$1200</h4>
+                    <h5>12Jan - 18Jan</h5>
+                    <h6>5 Days</h6>
+                </div>
+
+            </div>
+            <div class="up-event-section-cards-card">
+                <img src="./Assets/img/service2.png" alt="service2">
+                <div class="up-event-section-cards-card-content">
+                    <h3>Mega Turkey</h3>
+                    <h4>$1200</h4>
+                    <h5>12Jan - 18Jan</h5>
+                    <h6>5 Days</h6>
+                </div>
+            </div>
+            <div class="up-event-section-cards-card">
+                <img src="./Assets/img/service3.png" alt="service3">
+                <div class="up-event-section-cards-card-content">
+                    <h3>Mega Turkey</h3>
+                    <h4>$1200</h4>
+                    <h5>12Jan - 18Jan</h5>
+                    <h6>5 Days</h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- About Us Section -->
+    <div class="about-section">
+        <img class="about-section-img" src="./Assets/img/turest.jpg" alt="turest">
+        <div class="about-section-text">
+            <p>About Us</p>
+            <h1>Get ready for real time adventure</h1>
+            <p>
+                Welcome to our travel website! We are a team of experienced travel enthusiasts who are passionate about
+                exploring the world and sharing our experiences with others.
+                Our goal is to help you plan and book your dream vacation, whether it's a relaxing beach getaway, an
+                exciting adventure trip, or a cultural immersion experience. We offer a wide range of travel services,
+                including flights, hotels, tours, and activities, all at competitive prices.
+            </p>
+            <button class="about-section-text-btn" type="button">
+                Book Your Destination
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Review Section -->
+    <div class="review-section">
+        <h1 class="review-section-h1">What Costumer Say</h1>
+        <p>
+            Let's start journey with us and dream will come true.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos totam officiis, quidem
+            quaerat sequi, itaque nostrum asperiores voluptatibus velit soluta id veniam optio quia ipsa porro ullam
+            deleniti nesciunt!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos totam officiis, quidem
+            quaerat sequi, itaque nostrum asperiores voluptatibus velit soluta id veniam optio quia ipsa porro ullam
+            deleniti nesciunt!
+        </p>
+        <div class="review-section-content-avatar-div">
+            <img src="./Assets/img/founder.png" alt="founder-img">
+            <div class="review-section-content-avatar-text">
+                <h3>Mark Anthony</h3>
+                <p>CEO of Contrilib</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- video Section -->
+    <div class="video-section">
+        <img class="video-section-content-img" src="./Assets/img/video-bg.png" alt="video-bg">
+        <div class="video-section-content-text">
+            <span class="video-section-content-text-icon"><i class="fa fa-play-circle-o"></i></span>
+            <p>
+                Watch our last tour</p>
+        </div>
+    </div>
+
+
+    <!-- Insta Image Section -->
+    <div class="insta-section">
+        <img src="./Assets/img/insta1.png" alt="insta1">
+        <img src="./Assets/img/insta2.png" alt="insta2">
+        <img src="./Assets/img/insta3.png" alt="insta3">
+        <img src="./Assets/img/insta4.png" alt="insta4">
+        <img src="./Assets/img/insta5.png" alt="insta5">
+    </div>
+
+
+    <!-- Footer Section -->
+    <div class="footer-section">
+        <div class="footer-section-content">
+            <div class="footer-section-col">
+                <img class="footer-section-col-1-img" src="./Assets/img/logo-white.png" alt="logo">
+                <p class="footer-section-cols-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+                    nulla nisi minus similique
+                    voluptatibus ipsam porro culpa nihil placeat amet, dolores blanditiis harum distinctio? Impedit non
+                    maiores pariatur. Unde, quod!</p>
+                <div class="footer-section-col-1-icons">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <i class="fa fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="footer-section-col">
+                <h3 class="footer-section-cols-h">Navigation</h3>
+                <p class="footer-section-cols-p">Home</p>
+                <p class="footer-section-cols-p">About</p>
+                <p class="footer-section-cols-p">Services</p>
+                <p class="footer-section-cols-p">Blog</p>
+                <p class="footer-section-cols-p">Contact</p>
+            </div>
+            <div class="footer-section-col">
+                <h3 class="footer-section-cols-h">Services</h3>
+                <p class="footer-section-cols-p">Blackforest</p>
+                <p class="footer-section-cols-p">Bodhubon</p>
+                <p class="footer-section-cols-p">ROngdhonu</p>
+                <p class="footer-section-cols-p">Meghrong</p>
+            </div>
+            <div class="footer-section-col">
+                <h3 class="footer-section-cols-h">Contact Us</h3>
+                <p class="footer-section-cols-p">67/A, Green Lance, NYC</p>
+                <p class="footer-section-cols-p">demomail.@gmail.com</p>
+                <p class="footer-section-cols-p-contact">+10 (78) 738-9083</p>
+            </div>
+        </div>
+        <p class="footer-section-cols-p footer-section-copyright">Copyright &copy;2021 All rights reserved | This
+            template is made Abbas Ali &reg;1328</p>
+    </div>
+
+
+    <!-- Bootstrap Javascript Links -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

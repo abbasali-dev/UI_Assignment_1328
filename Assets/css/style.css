@@ -1,0 +1,570 @@
+/* General CSS*/
+body {
+    background-color: #ffffff;
+    color: #01172c;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*header*/
+.header-section {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    background-color: #fffcfc;
+    width: 100%;
+}
+
+#nav-check{
+    display: none;
+}
+
+
+
+.header-section-logo-img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.header-section-nav-ul {
+    padding-left: 0px;
+    float: right;
+}
+
+.header-section-nav-ul-li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.header-section-nav-ul-li-a {
+    color: #08121b;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-section-nav-ul-li-a:hover,
+.active {
+    background: #fcd41c;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.header-container-nav-toggler span {
+    margin: auto;
+}
+
+.header-section-nav-ul-li-contact-btn{
+    background-color: #fcd41c;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 0px 10px;
+    font-size: 15px;
+    border: none;
+}
+
+.header-section-nav-toggler{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    float: right;
+    line-height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #01172c;
+    display: none;
+}
+
+
+
+
+
+
+/*Welcome Text and Image Section*/
+.welcome-section {
+    margin-bottom: 100px;
+    z-index: -100;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.welcome-section-content-text {
+    text-align: center;
+    color: #01172c;
+    margin-bottom: 100px;
+}
+
+.welcome-section-content-text-h1 {
+    font-weight: 800;
+    margin-top: 80px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-size: 40px;
+}
+
+.welcome-section-content-text-h1 span {
+    background: linear-gradient(0deg, rgba(255, 0, 255, 0) 0%, rgba(255, 0, 255, 0) 16%, #fcd41c 16%, #fcd41c 41%, rgba(255, 0, 255, 0) 41%);
+    font-size: 50px;
+}
+
+.welcome-section-content-text-p {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color: #443f3f;
+    margin-bottom: 60px;
+}
+
+.welcome-section-content-text-btn {
+    background: linear-gradient(to bottom, #0a1220 2%, #091341 100%);
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    color: #fffcfc;
+    border-radius: 5px;
+    box-shadow: 1px 4px 12px rgba(94, 28, 68, .15);
+    margin-bottom: 3px;
+}
+
+.welcome-section-content-car-img {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+/*Upcomming Event Section*/
+
+.up-event-section {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.up-event-section-text {
+    text-align: center;
+}
+
+.up-event-section-text p {
+    color: #968e8e;
+}
+
+.up-event-section-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.up-event-section-cards-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.up-event-section-cards-card img {
+    width: 100%;
+}
+
+.up-event-section-cards-card-content {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.up-event-section-cards-card-content h3,
+.up-event-section-cards-card-content h6 {
+    width: 50%;
+}
+
+.up-event-section-cards-card-content h4,
+.up-event-section-cards-card-content h5 {
+    width: 50%;
+    color: #757272;
+}
+
+
+/*About Section*/
+.about-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.about-section-img {
+    width: 40%;
+    height: 40%;
+}
+
+.about-section-text {
+    width: 30%;
+    text-align: left;
+    margin: 2%;
+}
+
+.about-section-text p {
+    color: #757272;
+    line-height: 2.5em;
+}
+
+.about-section-text-btn {
+    color: #ffffff;
+    font-size: large;
+    background-color: #fcd41c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+/*review Section*/
+.review-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 100px;
+    justify-content: center;
+    background: linear-gradient(-45deg, rgba(186, 34, 195, 1) 0%, rgba(45, 212, 253, 1) 100%);
+    text-align: center;
+}
+
+
+
+/*video Section*/
+.video-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    z-index: -100;
+}
+
+.video-section-content-img {
+    width: 90%;
+}
+
+.video-section-content-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fffcfc;
+    font-weight: bolder;
+    word-spacing: 2px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.video-section-content-text-icon {
+    font-size: 96px;
+}
+
+
+/*Insta Section*/
+.insta-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/*Footer Section*/
+.footer-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(2, 57, 129) 0%, rgb(8, 15, 119) 100%);
+}
+
+.footer-section-content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    justify-content: space-around;
+    color: #ffffff;
+    margin-bottom: 5em;
+
+}
+
+.footer-section-col {
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.footer-section-cols-p {
+    color: #968e8e;
+    font-size: 14px;
+}
+
+.footer-section-copyright {
+    text-align: center;
+}
+
+.footer-section-col-1-img {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.footer-section-col-1-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section-cols-p-contact {
+    color: #fcd41c;
+}
+
+
+
+
+
+
+/*For 1007px width size and below*/
+@media only screen and (max-width: 1020px) {
+    .header-section-nav-toggler{
+        display: block;
+    }
+
+    .header-section-nav-ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #170750;
+        top: 55px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .header-section-nav-ul-li{
+        display: block;
+        margin: 0;
+        line-height: 30px;
+        padding: 25px 0;
+    }
+
+    .header-section-nav-ul-li:hover{
+        background: #07062c;
+    }
+
+    .header-section-nav-ul-li-a{
+        color: #fffcfc;
+        font-size: 16px;
+    }
+
+    #nav-check:checked~ul {
+        left: 0;
+    }
+
+
+    .welcome-section-content-text-h1 {
+        font-weight: 600;
+        margin-top: 60px;
+        line-height: 1em;
+        letter-spacing: .1em;
+        font-size: 30px;
+    }
+
+    .welcome-section-content-text-h1 span {
+        font-size: 25px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-section-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-section-text {
+        width: 98%;
+        text-align: left;
+        margin: 2%;
+    }
+
+    .about-section,
+    .review-section,
+    .video-section,
+    .insta-section {
+        margin-bottom: 70px;
+    }
+
+    .review-section {
+        font-size: 50%;
+    }
+
+    .footer-section-col {
+        width: 50%;
+    }
+
+    .footer-section-cols-p {
+        font-size: .7em;
+    }
+
+    .video-section-content-text {
+        font-size: 30px;
+    }
+
+    .video-section-content-text-icon {
+        font-size: 48px;
+    }
+}
+
+
+/*For 640px width size and below*/
+@media only screen and (max-width: 640px) {
+
+    .welcome-section-content-text-h1 {
+        font-weight: 400;
+        margin-top: 40px;
+        line-height: 1em;
+        letter-spacing: .1em;
+        font-size: 30px;
+    }
+
+    .welcome-section-content-text-h1 span {
+        font-size: 20px;
+    }
+
+    .review-section-content {
+        font-size: 10px;
+    }
+
+    .review-section-content h1 {
+        font-size: 15px;
+    }
+
+    .video-section-content-text {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer-section-col {
+        width: 100%;
+    }
+
+    .video-section-content-text {
+        font-size: 20px;
+    }
+
+    .video-section-content-text-icon {
+        font-size: 36px;
+    }
+
+}
+
+
+/*For 300px width size and below*/
+@media only screen and (max-width: 400px) {
+
+    .header-section-nav-toggler span{
+        display: none;
+    }
+
+    .welcome-section-content-text-h1 {
+        font-weight: 200;
+        margin-top: 20px;
+        line-height: 1em;
+        letter-spacing: .1em;
+        font-size: 30px;
+    }
+
+    .welcome-section-content-text-h1 span {
+        font-size: 20px;
+    }
+
+    .welcome-section-content-car-img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+    .up-event-section-cards-card {
+        width: 80%;
+    }
+
+    .review-section-content {
+        font-size: 5px;
+    }
+
+    .review-section-content h1 {
+        font-size: 10px;
+    }
+
+    .video-section-content-text {
+        font-size: 15px;
+    }
+
+}
+
+
+
+/* CSS for Screen Size 1900 and Above */
+@media only screen and (min-width: 1920px) {
+
+    .video-section-content-img {
+        width: fit-content;
+    }
+
+    .video-section-content-text {
+        font-size: 30px;
+    }
+
+    .video-section-content-text-icon {
+        font-size: 48px;
+    }
+}
