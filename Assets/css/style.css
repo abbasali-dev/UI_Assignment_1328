@@ -64,7 +64,7 @@ a {
 }
 
 .header-container-nav-toggler span {
-    margin: auto;
+    margin: 10px;
 }
 
 .header-section-nav-ul-li-contact-btn{
@@ -426,6 +426,7 @@ a {
         display: block;
     }
 
+
     .header-section-nav-ul{
         position: fixed;
         width: 100%;
@@ -690,9 +691,15 @@ a {
 /* CSS for Screen Size 1900 and Above */
 @media only screen and (min-width: 1920px) {
 
+    .review-section{
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+
     .video-section-content-img,
     .welcome-section-content-car-img,
-    .about-section-img {
+    .about-section-img,
+    .up-event-section-cards-card {
         width: fit-content;
     }
 
