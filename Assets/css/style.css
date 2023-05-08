@@ -20,6 +20,7 @@ a {
 .header-section {
     position: fixed;
     top: 0;
+    padding-top: 20px;
     height: 80px;
     background-color: #fffcfc;
     width: 100%;
@@ -44,7 +45,7 @@ a {
 
 .header-section-nav-ul-li {
     display: inline-block;
-    margin: 0 6px;
+    margin: 0 9px;
 }
 
 .header-section-nav-ul-li-a {
@@ -67,7 +68,7 @@ a {
 }
 
 .header-section-nav-ul-li-contact-btn{
-    background-color: #f4c100;
+    background-color: #ffca3d;
     color: #ffffff;
     border-radius: 4px;
     padding: 0px 10px;
@@ -83,9 +84,9 @@ a {
     float: right;
     line-height: 50px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     cursor: pointer;
-    background-color: #01172c;
+    background-color: #0a2b5e;
     display: none;
 }
 
@@ -110,35 +111,36 @@ a {
 
 .welcome-section-content-text {
     text-align: center;
-    color: #01172c;
+    color: #0a2b5e;
     margin-bottom: 100px;
 }
 
 .welcome-section-content-text-h1 {
-    font-weight: 800;
+    font-weight: 1000;
     margin-top: 80px;
     line-height: 1.5em;
     letter-spacing: .1em;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 .welcome-section-content-text-h1 span {
-    background: linear-gradient(0deg, rgba(255, 0, 255, 0) 0%, rgba(255, 0, 255, 0) 16%, #fcd41c 16%, #fcd41c 41%, rgba(255, 0, 255, 0) 41%);
-    font-size: 50px;
+    background: linear-gradient(0deg, rgba(255, 0, 255, 0) 0%, rgba(255, 0, 255, 0) 16%, #ffca3d 16%, #ffca3d 41%, rgba(255, 0, 255, 0) 41%);
+    font-size: 70px;
 }
 
 .welcome-section-content-text-p {
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 600;
     letter-spacing: .1em;
     margin-top: 40px;
-    color: #443f3f;
+    color: #0e2e61;
     margin-bottom: 60px;
 }
 
 .welcome-section-content-text-btn {
-    background: linear-gradient(to bottom, #0a1220 2%, #091341 100%);
-    padding: 15px 30px;
+    background: linear-gradient(to bottom, #0a1220 2%, #0a1b41 100%);
+    padding: 25px 40px;
+    font-weight: bold;
     text-align: center;
     transition: .5s;
     border: none;
@@ -172,13 +174,19 @@ a {
 }
 
 .up-event-section-text p {
-    color: #968e8e;
+    color: #87a1fb;
+}
+
+.up-event-section-text h1 {
+    font-size: 60px;
+    font-weight: 1000;
+    color: #0a2b5e;
 }
 
 .up-event-section-cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
@@ -207,12 +215,13 @@ a {
 .up-event-section-cards-card-content h3,
 .up-event-section-cards-card-content h6 {
     width: 50%;
+    color: #0a2b5e;
 }
 
 .up-event-section-cards-card-content h4,
 .up-event-section-cards-card-content h5 {
     width: 50%;
-    color: #757272;
+    color: #87a1fb;
 }
 
 
@@ -234,10 +243,16 @@ a {
 .about-section-text {
     width: 30%;
     text-align: left;
+    color: #0a2b5e;
     margin: 2%;
 }
 
-.about-section-text p {
+.about-section-text-p {
+    color: #87a1fb;
+    line-height: 2.5em;
+}
+
+.about-section-text-p2 {
     color: #a7a7a7;
     line-height: 2.5em;
 }
@@ -245,8 +260,8 @@ a {
 .about-section-text-btn {
     color: #ffffff;
     font-size: large;
-    background-color: #fcd41c;
-    padding: 10px 15px;
+    background-color: #ffca3d;
+    padding: 20px 30px;
     border-radius: 5px;
     border: none;
 }
@@ -271,6 +286,29 @@ a {
     text-align: center;
 }
 
+.review-section-content-text{
+    width: 50%;
+    margin-left: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.review-section-content-avatar-div{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.review-section-content-avatar-div-img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.review-section-content-avatar-text{
+    margin-left: 10px;
+}
 
 
 /*video Section*/
@@ -351,7 +389,7 @@ a {
 }
 
 .footer-section-cols-p {
-    color: #968e8e;
+    color: #7580ab;
     font-size: 14px;
 }
 
@@ -393,7 +431,7 @@ a {
         width: 100%;
         height: 100vh;
         background: #170750;
-        top: 55px;
+        top: 75px;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -407,7 +445,7 @@ a {
     }
 
     .header-section-nav-ul-li:hover{
-        background: #07062c;
+        background: #a2a0db;
     }
 
     .header-section-nav-ul-li-a{
@@ -423,8 +461,6 @@ a {
     .welcome-section-content-text-h1 {
         font-weight: 600;
         margin-top: 60px;
-        line-height: 1em;
-        letter-spacing: .1em;
         font-size: 30px;
     }
 
@@ -432,9 +468,17 @@ a {
         font-size: 25px;
     }
 
+    .up-event-section-cards-card{
+        width: fit-content;
+    }
+
+    .card-3{
+        display: none;
+    }
+
+    
     .about-section {
         flex-direction: column;
-        justify-content: center;
         width: 100%;
     }
 
@@ -484,17 +528,53 @@ a {
 /*For 640px width size and below*/
 @media only screen and (max-width: 640px) {
     
+    .header-section-nav-toggler{
+        margin-right: 20px;
+    }
+
+
+    .header-section-logo-img{
+        margin-left: 20px;
+        width: fit-content;
+    }
+
+    .welcome-section{
+        margin-bottom: 70px;
+    }
 
     .welcome-section-content-text-h1 {
-        font-weight: 400;
-        margin-top: 40px;
-        line-height: 1em;
-        letter-spacing: .1em;
-        font-size: 30px;
+        font-weight: 700;
+        font-size: 25px;
     }
 
     .welcome-section-content-text-h1 span {
         font-size: 20px;
+    }
+
+    .welcome-section-content-text-p{
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    .up-event-section-text h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .card-2,
+    .card-3{
+        display: none;
+    }
+
+    .about-section-text-h{
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .review-section-content-text{
+        width: 80%;
+        margin-left: 10%;
+        margin-left: 10%;
     }
 
     .review-section-content {
@@ -508,6 +588,11 @@ a {
     .video-section-content-text {
         font-size: 20px;
         font-weight: bold;
+    }
+
+    .video-section-content-img {
+        width: 90%;
+        height: 90%;
     }
 
     .footer-section-col {
@@ -529,25 +614,8 @@ a {
 }
 
 
-/*For 300px width size and below*/
+/*For 400px width size and below*/
 @media only screen and (max-width: 400px) {
-
-    .header-section-nav-toggler span{
-        display: none;
-    }
-
-    .welcome-section-content-text-h1 {
-        font-weight: 200;
-        margin-top: 20px;
-        line-height: 1em;
-        letter-spacing: .1em;
-        font-size: 30px;
-    }
-
-    .welcome-section-content-text-h1 span {
-        font-size: 20px;
-    }
-
     .welcome-section-content-car-img {
         width: 80%;
         margin-left: auto;
@@ -576,18 +644,41 @@ a {
 
 
 
+/*For 300px width size and below*/
+@media only screen and (max-width: 300px) {
+    .header-section-logo-img{
+        margin-left: 10px;
+        width: 50%;
+    }
+
+    .welcome-section-content-text-h1 {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .welcome-section-content-text-h1 span {
+        font-size: 15px;
+    }
+
+    .welcome-section-content-text-p{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .up-event-section-text h1 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+}
+
+
 /* CSS for Screen Size 1900 and Above */
 @media only screen and (min-width: 1920px) {
 
-    .video-section-content-img {
-        width: fit-content;
-    }
-
-    .welcome-section-content-car-img{
-        width: fit-content;
-    }
-
-    .about-section-img{
+    .video-section-content-img,
+    .welcome-section-content-car-img,
+    .about-section-img {
         width: fit-content;
     }
 
