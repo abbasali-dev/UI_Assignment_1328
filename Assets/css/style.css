@@ -469,7 +469,7 @@ a {
     }
 
     .up-event-section-cards-card{
-        width: fit-content;
+        width: 40%;
     }
 
     .card-3{
@@ -565,6 +565,10 @@ a {
         font-weight: 700;
     }
 
+    .up-event-section-cards-card{
+        width: 90%;
+    }
+
     .card-2,
     .card-3{
         display: none;
@@ -615,6 +619,17 @@ a {
         width: 50%;
     }
 
+    .footer-section-content{
+        margin-bottom: 2em;
+    }
+
+    .footer-section-copyright{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
 }
 
 
@@ -625,11 +640,6 @@ a {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-    }
-
-
-    .up-event-section-cards-card {
-        width: 80%;
     }
 
     .review-section-content {
