@@ -532,6 +532,10 @@ a {
     .header-section{
         padding-top: 0px;
     }
+
+    .header-section-nav-ul{
+        top: 60px;
+    }
     
     .header-section-nav-toggler{
         margin-right: 20px;
@@ -636,6 +640,8 @@ a {
 
 /*For 400px width size and below*/
 @media only screen and (max-width: 400px) {
+
+
     .welcome-section-content-car-img {
         width: 80%;
         margin-left: auto;
