@@ -101,6 +101,10 @@ a {
     flex-flow: column nowrap;
     justify-content: center;
     width: 100%;
+    background-image: url('./../img/backgroundImg.png');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .welcome-section-content-text {
@@ -557,6 +561,14 @@ a {
 @media only screen and (min-width: 1920px) {
 
     .video-section-content-img {
+        width: fit-content;
+    }
+
+    .welcome-section-content-car-img{
+        width: fit-content;
+    }
+
+    .about-section-img{
         width: fit-content;
     }
 
