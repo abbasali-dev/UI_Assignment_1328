@@ -125,7 +125,7 @@ a {
 
 .welcome-section-content-text-h1 span {
     background-image: linear-gradient(to right, transparent 1%, #ffca3d 1%, #ffca3d 98%, transparent 95%);
-    background-size: 100% 15px;
+    background-size: 100% 15%;
     background-position: 0 80%;
     background-repeat: repeat-x;
 }
