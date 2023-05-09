@@ -12,11 +12,19 @@ This is the GitHub repository for TraLive website, a responsive travel website c
 
 - **About Us**: This section includes an image and text describing the website and its team.
 
+- **Tour Videos**: This section includes a video Section showing our previous tours.
+
+- **Footer**: This section contains the details of webpage.
+
 ## How to Use
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your web browser.
 3. Explore the website by clicking on the navigation links and buttons.
+
+## Link to Netlify
+
+[Tralive](https://dev-1328-tralive.netlify.app/)
 
 ## Credits
 
